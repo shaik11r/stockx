@@ -1,12 +1,13 @@
 import "./App.css";
-import SignIn from "./components/SignIn";
+import Home from "./components/Home";
 import Navbar from "./components/navbar";
 
 function App() {
   return (
-    <div className="App">
-      {/* <Navbar /> */}
+    <div className="xapp">
+      <Navbar />
       {/* <SignIn /> */}
+      <Home/>
     </div>
   );
 }

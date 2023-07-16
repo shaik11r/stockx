@@ -1,11 +1,24 @@
-/* .navbar {
+.navbar {
   display: flex;
   background-color: #010409;
-  width: 100%;
   padding: 10px;
   color: white;
   justify-content: space-between;
-} */
+  padding: 20px;
+}
+.navbar_left{
+  display: flex;
+  margin-left: 40px;
+  gap:20px;
+}
+.navbar_login {
+  display: flex;
+  gap: 20px;
+}
+.navbar_login a {
+  text-decoration: none;
+  color: white;
+}
 .App {
   display: flex;
   width: 100vw;
@@ -16,7 +29,7 @@
 }
 .signin_box {
   display: flex;
-  
+
   position: absolute;
   top: 30px;
   flex-direction: column;
@@ -82,3 +95,4 @@
   padding-left: 10px;
   text-decoration: none;
 }
+

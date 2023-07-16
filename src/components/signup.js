@@ -5,7 +5,7 @@ const SignUp = () => {
   return (
     <div className="App">
       <div className="signin_box">
-        <h1 className="sigin_heading">Sign to StockX</h1>
+        <h1 className="sigin_heading">S to StockX</h1>
         <div className="signin">
           <label>Email address</label>
           <input type="text" className="inp" />
